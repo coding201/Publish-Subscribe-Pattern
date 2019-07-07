@@ -4,7 +4,7 @@ This is a C# .Net Core Console Application to demonstrate Publish/Subscriber pat
 #### Table of content
 1. [Quick Start](#quick-start)
 2. [Prerequisites](#prerequisites)
-3. [Publisher/Subscriber patten](#publisher/subscriber-pattern)
+3. [Publisher/Subscriber pattern](#publisher/subscriber-pattern)
 5. [TODOs](#todos)
 
 ## Quick Start
