@@ -29,4 +29,6 @@ With this application you can create subscribers for message type int and string
 ![](images/consoleapp.PNG)
 
 ## TODOs
-1. To enhane the application there is need to create event middle layer between publisher and subscriber to to break tight coupling. Publisher and Subscriber don't know each other. They both need to work with meedle layer.
+1. To enhance application there is a need to create middle layer between publisher and subscriber in order to break tight coupling. Publisher and Subscriber shouldn't know each other. They both need to work with middle layer.
+2. Comments needs to be added to the code.
+3. Unit tests needs to be added.
