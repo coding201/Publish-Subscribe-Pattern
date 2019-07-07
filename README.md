@@ -21,10 +21,10 @@ Publisher/Subscriber pattern is one of the variations of the Observer designer p
 ![](images/diagram1.png)
 
 To achieve Publisher/Subscriber pattern has been used Event/Delegate. Here are the drawbacks of this approach:
-1. For publishing Different type of message there is need of creating different type of Publisher. For Example : Publisher<int> - for integer type,  publisher Publisher<string> - for string type.
-2. Tight Coupling bettwen Publisher and Subscriber. In this pattern Subscriber require to know publisher as they subscribe to event of publisher.
+1. For publishing different type of message there is need of creating different type of Publisher. For Example : Publisher<int> - for integer type, Publisher<string> - for string type.
+2. Tight coupling bettwen Publisher and Subscriber. In this pattern Subscriber require to know Publisher as they subscribe to event of Publisher.
    
-With this application you can create subscribers for message type int and string by giving how many subscriber you want to have from each one. Below see screenshot of app.
+With this application you can create Subscribers for message type int and string by giving how many Subscriber you want to have for each of type message. See screenshot of app running below.
 
 ![](images/consoleapp.PNG)
 
