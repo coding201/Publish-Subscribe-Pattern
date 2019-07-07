@@ -16,7 +16,6 @@ namespace pubnub.logic
         {
             _intPublisher = intPublisher; //create publisher of type integer
             _stringPublisher = stringPublisher; //create publisher of type integer 
-            RecievedInt = new List<int>();
         }
 
         public void CreateNumberChannelSubscriber()
@@ -47,7 +46,6 @@ namespace pubnub.logic
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"Hey. I got the number: {e.Message}.");
             Console.ResetColor();
-            RecievedInt.Add(e.Message);
         }
 
         public void TextChannel(object sender, EventArguments<string> e)
