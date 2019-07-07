@@ -4,7 +4,7 @@ This is a C# .Net Core Console Application to demonstrate Publish/Subscriber pat
 #### Table of content
 1. [Quick Start](#quick-start)
 2. [Prerequisites](#prerequisites)
-3. [Publisher/Subscriber pattern](#publishersubscriber-pattern)
+3. [Publisher/Subscriber pattern info](#publishersubscriber-pattern-info)
 5. [TODOs](#todos)
 
 ## Quick Start
@@ -15,7 +15,7 @@ Several quick start options are available:
 ## Prerequisites
 - Visual Studio
    
-## Publisher/Subscriber pattern
+## Publisher/Subscriber pattern info
 Publisher/Subscriber pattern is one of the variations of the Observer designer pattern. This is working very simple: publisher triggers a message and there are one or more Subscriber to particular message who listen to published message. Below image demonstrate how it works.
 
 ![](images/diagram1.png)
