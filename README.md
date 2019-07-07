@@ -15,7 +15,7 @@ Several quick start options are available:
 ## Prerequisites
 - Visual Studio
    
-## Publisher/Subscriber patten
+## Publisher/Subscriber pattern
 Publisher/Subscriber pattern is one of the variations of the Observer designer pattern. This is working very simple: publisher triggers a message and there are one or more Subscriber to particular message who listen to published message. Below image demonstrate how it works.
 
 ![](images/diagram1.png)
